@@ -1,0 +1,91 @@
+{
+    "@@locale": "de",
+        "onBoarding1_title": "Vertrauen in Ihre Worte",
+        "onBoarding1_desc": "Mit konversationsbasiertem Lernen sprechen Sie ab der ersten Lektion",
+        "onBoarding2_title": "Nehmen Sie sich Zeit zum Lernen",
+        "onBoarding2_desc": "Entwickeln Sie eine Lerngewohnheit und machen Sie es zu einem Teil Ihrer täglichen Routine",
+        "onBoarding3_title": "Die Lektionen, die Sie lernen müssen",
+        "onBoarding3_desc": "Verwenden Sie verschiedene Lernstile, um zu lernen und zu behalten",
+        "onBoarding_button": "Weiter",
+        "onBoarding_skip": "Überspringen",
+
+    "login": "Anmelden",
+        "login_page_title": "Treten Sie kostenlos bei und beginnen Sie jetzt mit dem Lernen",
+        "email_address": "E-Mail-Adresse",
+        "email_address_hint": "Geben Sie Ihre E-Mail-Adresse ein",
+        "password": "Passwort",
+        "password_hint": "Geben Sie Ihr Passwort ein",
+        "forgot_password": "Passwort vergessen",
+        "login_button": "Anmelden",
+        "or": "ODER",
+        "not_member": "Kein Mitglied?",
+
+    "sign_up": "Registrieren",
+        "sign_up_page_title": "Melden Sie sich kostenlos an und beginnen Sie mit dem Lernen",
+        "first_name": "Vorname",
+        "first_name_hint": "Geben Sie Ihren Vornamen ein",
+        "last_name": "Nachname",
+        "last_name_hint": "Geben Sie Ihren Nachnamen ein",
+        "confirm_password": "Passwort bestätigen",
+        "sign_up_button": "Registrieren",
+        "already_member": "Schon Mitglied?",
+
+        "next_button": "Weiter",
+        "page1_complete": "Abgeschlossen 1/5",
+        "page1_question": "Was ist Ihre Muttersprache?",
+        "page1_english": "Englisch",
+        "page1_arabic": "Arabisch",
+        "page1_french": "Französisch",
+        "page1_german": "Deutsch",
+        "page1_hindi": "Hindi",
+        "page1_spanish": "Spanisch",
+        "page1_italian": "Italienisch",
+        "page1_portuguese": "Portugiesisch",
+        "page2_complete": "Abgeschlossen 2/5",
+        "page2_question": "Was ist Ihr Hauptgrund, ${language} zu lernen?",
+        "@page2_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page2_travel": "Reisen",
+        "page2_school": "Schule",
+        "page2_work": "Arbeit",
+        "page2_family": "Familie/Freunde",
+        "page2_skill_improvement": "Fähigkeiten verbessern",
+        "page2_others": "Andere",
+        "page3_complete": "Abgeschlossen 3/5",
+        "page3_question": "Wie viel wissen Sie über ${language}?",
+        "@page3_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page3_not_much": "Nicht viel",
+        "page3_medium": "Mittel",
+        "page3_expert": "Experte",
+        "page4_complete": "Abgeschlossen 4/5",
+        "page4_question": "Wie alt sind Sie?",
+        "page4_under_18": "Unter 18",
+        "page4_18_24": "18-24",
+        "page4_25_34": "25-34",
+        "page4_35_44": "35-44",
+        "page4_45_54": "45-54",
+        "page4_55_64": "55-64",
+        "page4_65_or_older": "65 oder älter",
+        "page5_complete": "Abgeschlossen 5/5",
+        "page5_question": "Wie viel Zeit haben Sie, um ${language} zu lernen?",
+        "@page5_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page5_5min": "5 Min./Tag",
+        "page5_15min": "15 Min./Tag",
+        "page5_30min": "30 Min./Tag",
+        "page5_60min": "60 Min./Tag",
+        "complete_button": "Abschließen",
+        "congratulation": "Herzlichen Glückwunsch",
+        "congratulation_desc": "Sie haben den Registrierungsprozess erfolgreich abgeschlossen\\nBitte melden Sie sich an oder registrieren Sie sich und beginnen Sie mit dem Lernen",
+        "continue_button": "Weiter"
+}

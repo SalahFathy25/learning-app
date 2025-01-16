@@ -1,0 +1,91 @@
+{
+    "@@locale": "ar",
+    "onBoarding1_title": "ثقة في كلماتك",
+    "onBoarding1_desc": "مع التعلم القائم على المحادثة، ستبدأ التحدث من الدرس الأول",
+    "onBoarding2_title": "خذ وقتك في التعلم",
+    "onBoarding2_desc": "طور عادة التعلم واجعلها جزءًا من روتينك اليومي",
+    "onBoarding3_title": "الدروس التي تحتاج إلى تعلمها",
+    "onBoarding3_desc": "باستخدام مجموعة متنوعة من أساليب التعلم لتحسين الفهم والاحتفاظ",
+    "onBoarding_button": "التالي",
+    "onBoarding_skip": "تخطي",
+
+    "login": "تسجيل الدخول",
+    "login_page_title": "انضم الآن مجانًا وابدأ التعلم",
+    "email_address": "البريد الإلكتروني",
+    "email_address_hint": "أدخل بريدك الإلكتروني",
+    "password": "كلمة المرور",
+    "password_hint": "أدخل كلمة المرور",
+    "forgot_password": "نسيت كلمة المرور",
+    "login_button": "تسجيل الدخول",
+    "or": "أو",
+    "not_member": "لست عضوا؟",
+
+    "sign_up": "إنشاء حساب",
+    "sign_up_page_title": "سجل مجانًا وابدأ التعلم",
+    "first_name": "الاسم الأول",
+    "first_name_hint": "أدخل اسمك الأول",
+    "last_name": "الاسم الأخير",
+    "last_name_hint": "أدخل اسمك الأخير",
+    "confirm_password": "تأكيد كلمة المرور",
+    "sign_up_button": "إنشاء حساب",
+    "already_member": "عضو بالفعل؟",
+
+    "next_button": "التالي",
+    "page1_complete": "تم الإنجاز 1/5",
+    "page1_question": "ما هي لغتك الأم؟",
+    "page1_english": "الإنجليزية",
+    "page1_arabic": "العربية",
+    "page1_french": "الفرنسية",
+    "page1_german": "الألمانية",
+    "page1_hindi": "الهندية",
+    "page1_spanish": "الإسبانية",
+    "page1_italian": "الإيطالية",
+    "page1_portuguese": "البرتغالية",
+    "page2_complete": "تم الإنجاز 2/5",
+    "page2_question": "ما هو سببك الرئيسي لتعلم ${language}؟",
+    "@page2_question": {
+        "placeholders": {
+            "language": {}
+        }
+    },
+    "page2_travel": "السفر",
+    "page2_school": "الدراسة",
+    "page2_work": "العمل",
+    "page2_family": "العائلة/الأصدقاء",
+    "page2_skill_improvement": "تحسين المهارات",
+    "page2_others": "أخرى",
+    "page3_complete": "تم الإنجاز 3/5",
+    "page3_question": "ما مدى معرفتك بـ ${language}؟",
+    "@page3_question": {
+        "placeholders": {
+            "language": {}
+        }
+    },
+    "page3_not_much": "قليل جدًا",
+    "page3_medium": "متوسط",
+    "page3_expert": "خبير",
+    "page4_complete": "تم الإنجاز 4/5",
+    "page4_question": "كم عمرك؟",
+    "page4_under_18": "أقل من 18",
+    "page4_18_24": "18-24",
+    "page4_25_34": "25-34",
+    "page4_35_44": "35-44",
+    "page4_45_54": "45-54",
+    "page4_55_64": "55-64",
+    "page4_65_or_older": "65 أو أكثر",
+    "page5_complete": "تم الإنجاز 5/5",
+    "page5_question": "كم من الوقت لديك لتعلم ${language}؟",
+    "@page5_question": {
+        "placeholders": {
+            "language": {}
+        }
+    },
+    "page5_5min": "5 دقائق/اليوم",
+    "page5_15min": "15 دقيقة/اليوم",
+    "page5_30min": "30 دقيقة/اليوم",
+    "page5_60min": "60 دقيقة/اليوم",
+    "complete_button": "إكمال",
+    "congratulation": "تهانينا",
+    "congratulation_desc": "لقد أكملت عملية التسجيل بنجاح\\nيرجى تسجيل الدخول أو إنشاء حساب وبدء التعلم",
+    "continue_button": "متابعة"
+}

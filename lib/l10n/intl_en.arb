@@ -1,0 +1,91 @@
+{
+    "@@locale": "en",
+        "onBoarding1_title": "Confidence in your words",
+        "onBoarding1_desc": "With conversation-based learning, you'll be talking from lesson one",
+        "onBoarding2_title": "Take your time to learn",
+        "onBoarding2_desc": "Develop a habit of learning and make it a part of your daily routine",
+        "onBoarding3_title": "The lessons you need to learn",
+        "onBoarding3_desc": "Using a variety of learning styles to learn and retain",
+        "onBoarding_button": "Next",
+        "onBoarding_skip": "Skip",
+
+    "login": "Login",
+        "login_page_title": "For free, join now and start learning",
+        "email_address": "Email address",
+        "email_address_hint": "Enter your email address",
+        "password": "Password",
+        "password_hint": "Enter your password",
+        "forgot_password": "Forgot password",
+        "login_button": "Login",
+        "or": "OR",
+        "not_member": "Not a member?",
+
+    "sign_up": "Sign up",
+        "sign_up_page_title": "Sign up for free and start learning",
+        "first_name": "First name",
+        "first_name_hint": "Enter your first name",
+        "last_name": "Last name",
+        "last_name_hint": "Enter your last name",
+        "confirm_password": "Confirm password",
+        "sign_up_button": "Sign up",
+        "already_member": "Already a member?",
+
+        "next_button": "Next",
+        "page1_complete": "Completed 1/5",
+        "page1_question": "What is your mother language?",
+        "page1_english": "English",
+        "page1_arabic": "Arabic",
+        "page1_french": "French",
+        "page1_german": "German",
+        "page1_hindi": "Hindi",
+        "page1_spanish": "Spanish",
+        "page1_italian": "Italian",
+        "page1_portuguese": "Portuguese",
+        "page2_complete": "Completed 2/5",
+        "page2_question": "What is your main reason for learning ${language}?",
+        "@page2_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page2_travel": "Travel",
+        "page2_school": "School",
+        "page2_work": "Work",
+        "page2_family": "Family/Friends",
+        "page2_skill_improvement": "Skill Improvement",
+        "page2_others": "Others",
+        "page3_complete": "Completed 3/5",
+        "page3_question": "How much do you know about ${language}?",
+        "@page3_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page3_not_much": "Not Much",
+        "page3_medium": "Medium",
+        "page3_expert": "Expert",
+        "page4_complete": "Completed 4/5",
+        "page4_question": "How old are you?",
+        "page4_under_18": "Under 18",
+        "page4_18_24": "18-24",
+        "page4_25_34": "25-34",
+        "page4_35_44": "35-44",
+        "page4_45_54": "45-54",
+        "page4_55_64": "55-64",
+        "page4_65_or_older": "65 or older",
+        "page5_complete": "Completed 5/5",
+        "page5_question": "How much time do you have to learn ${language}?",
+        "@page5_question": {
+            "placeholders": {
+                "language": {}
+            }
+        },
+        "page5_5min": "5min/Day",
+        "page5_15min": "15min/Day",
+        "page5_30min": "30min/Day",
+        "page5_60min": "60min/Day",
+        "complete_button": "Complete",
+        "congratulation": "Congratulations",
+        "congratulation_desc": "You have successfully completed the registration process\\nPlease Login or Sign up & start learning",
+        "continue_button": "Continue"
+}
