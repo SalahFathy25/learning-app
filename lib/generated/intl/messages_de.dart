@@ -43,6 +43,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email_address": MessageLookupByLibrary.simpleMessage("E-Mail-Adresse"),
         "email_address_hint": MessageLookupByLibrary.simpleMessage(
             "Geben Sie Ihre E-Mail-Adresse ein"),
+        "fill_all_fields": MessageLookupByLibrary.simpleMessage(
+            "Bitte füllen Sie alle Felder aus"),
         "first_name": MessageLookupByLibrary.simpleMessage("Vorname"),
         "first_name_hint": MessageLookupByLibrary.simpleMessage(
             "Geben Sie Ihren Vornamen ein"),

@@ -40,6 +40,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
         "email_address_hint":
             MessageLookupByLibrary.simpleMessage("أدخل بريدك الإلكتروني"),
+        "fill_all_fields":
+            MessageLookupByLibrary.simpleMessage("يرجى ملء جميع الحقول"),
         "first_name": MessageLookupByLibrary.simpleMessage("الاسم الأول"),
         "first_name_hint":
             MessageLookupByLibrary.simpleMessage("أدخل اسمك الأول"),

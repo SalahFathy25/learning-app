@@ -199,9 +199,14 @@ class _ForegroundState extends State<_Foreground> {
                   child: child,
                 );
               },
-              child: Image.asset(
-                splashBackgroundImage,
-                fit: BoxFit.cover,
+              // child: Image.asset(
+              //   splashBackgroundImage,
+              //   fit: BoxFit.cover,
+              // ),
+              child: Container(
+                width: double.infinity,
+                height: double.infinity,
+                color: Theme.of(context).scaffoldBackgroundColor,
               ),
             ),
           ),

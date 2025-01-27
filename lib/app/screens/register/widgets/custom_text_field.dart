@@ -11,14 +11,18 @@ class CustomTextField extends StatefulWidget {
   final TextInputType keyboardType;
   final bool obscure;
   final bool enabled;
+  final bool titleBool;
+    final TextEditingController controller;
   const CustomTextField({
     super.key,
     required this.title,
     required this.hintText,
     required this.icon,
     required this.keyboardType,
+    required this.controller,
     this.obscure = false,
     this.enabled = false,
+    this.titleBool = true,
   });
 
   @override
@@ -27,11 +31,13 @@ class CustomTextField extends StatefulWidget {
 
 class _CustomTextFieldState extends State<CustomTextField> {
   late bool _isObscure;
+  late bool _titleBool;
 
   @override
   void initState() {
     super.initState();
     _isObscure = widget.obscure;
+    _titleBool = widget.titleBool;
   }
 
   @override
@@ -39,16 +45,19 @@ class _CustomTextFieldState extends State<CustomTextField> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          widget.title,
-          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: primaryColor.withOpacity(0.7),
-                fontWeight: FontWeight.w600,
-                fontSize: 16,
-              ),
-        ),
+        _titleBool == true
+            ? Text(
+                widget.title,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: primaryColor.withOpacity(0.7),
+                      fontWeight: FontWeight.w600,
+                      fontSize: 16,
+                    ),
+              )
+            : SizedBox.shrink(),
         mySizedBox(height: 5),
         TextFormField(
+          controller: widget.controller,
           keyboardType: widget.keyboardType,
           obscureText: _isObscure,
           decoration: InputDecoration(

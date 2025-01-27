@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:learning_app/app/widgets/my_sized_box.dart';
-import 'package:learning_app/core/utils/constants.dart';
 import 'package:learning_app/core/utils/images.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../../../core/utils/colors.dart';
+import '../../../../core/utils/constants.dart';
 import '../../../../generated/l10n.dart';
+
 import '../../../domain/app_language_cubit/app_language_cubit.dart';
 import '../../../domain/app_theme_cubit/apptheme_cubit.dart';
 import '../../../domain/app_theme_cubit/theme_state.dart';
@@ -78,46 +79,49 @@ class _OnboardingBodyState extends State<OnboardingBody> {
       child: Column(
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              BlocBuilder<AppthemeCubit, AppThemeState>(
-                builder: (context, state) {
-                  return IconButton(
-                    icon: Icon(
-                      Icons.brightness_medium,
-                      color: primaryColor,
-                    ),
-                    iconSize: 30,
-                    onPressed: () {
-                      if (isDarkTheme) {
-                        sharedPreferences?.setBool('isDarkTheme', false);
-                        BlocProvider.of<AppthemeCubit>(context)
-                            .changeTheme(ThemeState.light);
-                      } else {
-                        sharedPreferences?.setBool('isDarkTheme', true);
-                        BlocProvider.of<AppthemeCubit>(context)
-                            .changeTheme(ThemeState.dark);
-                      }
-                      setState(() {
-                        isDarkTheme = !isDarkTheme;
-                      });
-                    },
-                  );
-                },
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        BlocBuilder<AppthemeCubit, AppThemeState>(
+          builder: (context, state) {
+            return IconButton(
+              icon: Icon(
+                Icons.brightness_medium,
+                color: primaryColor,
               ),
-              BlocBuilder<AppLanguageCubit, AppLanguageState>(
-                builder: (context, state) {
-                  return IconButton(
-                    icon: Icon(Icons.language, color: primaryColor),
-                    iconSize: 30,
-                    onPressed: () {
-                      chooselanguage(context);
-                    },
-                  );
-                },
-              ),
-            ],
-          ),
+              iconSize: 30,
+              onPressed: () {
+                if (isDarkTheme == true) {
+                  sharedPreferences?.setBool('isDarkTheme', false);
+                  BlocProvider.of<AppthemeCubit>(context)
+                      .changeTheme(ThemeState.light);
+                } else {
+                  sharedPreferences?.setBool('isDarkTheme', true);
+                  BlocProvider.of<AppthemeCubit>(context)
+                      .changeTheme(ThemeState.dark);
+                }
+                setState(
+                  () {
+                    isDarkTheme = !isDarkTheme;
+                  },
+                );
+              },
+            );
+          },
+        ),
+        BlocBuilder<AppLanguageCubit, AppLanguageState>(
+          builder: (context, state) {
+            return IconButton(
+              icon: Icon(Icons.language, color: primaryColor),
+              iconSize: 30,
+              onPressed: () {
+                chooselanguage(context);
+              },
+            );
+          },
+        ),
+      ],
+    )
+  ,
           Expanded(
             child: PageView.builder(
               controller: _pageController,

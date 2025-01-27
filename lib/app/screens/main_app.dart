@@ -7,11 +7,7 @@ import 'register/signup/signup_screen.dart';
 import 'splash/circle_animated_screen.dart';
 
 class MainApp extends StatelessWidget {
-  const MainApp({
-    super.key,
-    required this.theme,
-    required this.locale,
-  });
+  const MainApp({super.key, required this.theme, required this.locale});
 
   final ThemeData theme;
   final Locale locale;

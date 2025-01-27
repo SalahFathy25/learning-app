@@ -320,6 +320,16 @@ class S {
     );
   }
 
+  /// `Please fill all fields`
+  String get fill_all_fields {
+    return Intl.message(
+      'Please fill all fields',
+      name: 'fill_all_fields',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Next`
   String get next_button {
     return Intl.message(

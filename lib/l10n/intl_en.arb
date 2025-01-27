@@ -29,6 +29,7 @@
         "confirm_password": "Confirm password",
         "sign_up_button": "Sign up",
         "already_member": "Already a member?",
+        "fill_all_fields": "Please fill all fields",
 
         "next_button": "Next",
         "page1_complete": "Completed 1/5",
